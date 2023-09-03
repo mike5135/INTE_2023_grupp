@@ -15,6 +15,7 @@ public class CounterTest {
         Counter c = new Counter();
         c.inc();
         assertEquals(1, c.getValue());
+        //Dorra
     }
 
 
