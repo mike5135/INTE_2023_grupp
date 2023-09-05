@@ -9,6 +9,8 @@ public class Counter {
         value++;
     }
 
+    public void dec() { value--;}
+
     public int getValue() {
         return value;
     }
