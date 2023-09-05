@@ -14,7 +14,7 @@ public class Counter {
     }
 
     public int getValue() {
-        return value;
+        return value++;
     }
 
     public String toString() {
