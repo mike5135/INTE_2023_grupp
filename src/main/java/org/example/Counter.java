@@ -20,6 +20,7 @@ public class Counter {
     public String toString() {
         String l = "Hej";
         String l1 = "Hi";
+        int h =1;
         return "This is the current value 1 + 23" + value;
     }
 
