@@ -23,7 +23,7 @@ public class Counter {
         int p = 3;
         String s = "Hi";
 
-        return "This is the current value 1 + 23"  + p + value;
+        return "This is the current value 1 + 23"  + p + s + value;
 
     }
 
