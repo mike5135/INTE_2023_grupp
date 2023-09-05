@@ -28,4 +28,10 @@ public class CounterTest {
         c.dec();
         assertEquals(0, c.getValue());
     }
+
+    @Test
+    void toStringReturnsCorrectString() {
+        Counter c = createCounterWithValueOne();
+        assertEquals("This is the current value 1", c.toString());
+    }
 }
