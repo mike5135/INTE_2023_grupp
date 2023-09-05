@@ -21,6 +21,7 @@ public class Counter {
         String l = "Hej";
         int o = 1;
         String l1 = "Hi + Hej";
+        int yy= 99;
         int p = 23;
         String l2 ="HI";
         String l3 ="HI1";
