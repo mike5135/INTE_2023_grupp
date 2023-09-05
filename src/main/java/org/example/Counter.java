@@ -18,7 +18,7 @@ public class Counter {
     }
 
     public String toString() {
-        return "This is the current value 1" + value;
+        return "This is the current value 3" + value;
     }
 
     /*
