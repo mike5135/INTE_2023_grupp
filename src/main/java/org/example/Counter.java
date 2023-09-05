@@ -14,11 +14,11 @@ public class Counter {
     }
 
     public int getValue() {
-        return value++;
+        return value;
     }
 
     public String toString() {
-        return "This is the current value " + value;
+        return "This is the current value 1" + value;
     }
 
     /*
