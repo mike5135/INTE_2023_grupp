@@ -15,6 +15,10 @@ public class Counter {
         return value;
     }
 
+    public String toString() {
+        return "This is the current value " + value;
+    }
+
     /*
     public static void main(String[] args) {
 
