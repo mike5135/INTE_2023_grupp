@@ -19,8 +19,7 @@ public class Counter {
 
     public String toString() {
         String l = "Hej";
-        String l1 = "Hi";
-        int h =1;
+        String l1 = "Hi + Hej";
         return "This is the current value 1 + 23" + value;
     }
 
