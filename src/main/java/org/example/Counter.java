@@ -24,6 +24,7 @@ public class Counter {
         int p = 23;
         String l2 ="HI";
         String l3 ="HI1";
+        String l4 ="HI2";
         return "This is the current value 1 + 23" + value;
     }
 
