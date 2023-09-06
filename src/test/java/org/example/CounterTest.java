@@ -18,7 +18,7 @@ public class CounterTest {
     void IncIncreasesValue() {
         Counter c = new Counter();
         c.inc();
-        assertEquals(1, c.getValue());
+        assertEquals(2, c.getValue());
         //Dorra
     }
 
@@ -33,5 +33,11 @@ public class CounterTest {
     void toStringReturnsCorrectString() {
         Counter c = createCounterWithValueOne();
         assertEquals("This is the current value 1", c.toString());
+    }
+
+    @Test
+    void testm1() {
+        Counter c = new Counter();
+        assertEquals(2, c.m1());
     }
 }

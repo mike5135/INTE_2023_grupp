@@ -5,12 +5,13 @@ public class Counter {
 
     private int value;
 
+
     public void inc() {
-        value++;
+        value+=2;
     }
 
     public void dec() {
-        value--;
+        value-=2;
     }
 
     public int getValue() {
@@ -25,6 +26,10 @@ public class Counter {
 
         return "This is the current value 1 + 23"  + p + s + value;
 
+    }
+
+    public int m1() {
+        return 1+1;
     }
 
     /*
