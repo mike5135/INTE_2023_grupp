@@ -28,7 +28,7 @@ public class Counter {
 
     }
 
-    // test push, and push,g
+    // test push, one more
     public int m1() {
         return 1+1;
     }
